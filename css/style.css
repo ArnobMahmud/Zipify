@@ -9,10 +9,20 @@ img {
 }
 .navbar {
   position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
   z-index: 9;
-  background-color: rgba(123, 141, 183, 0.56);
+  background-color: rgba(123, 141, 183, 0.705);
   margin-bottom: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-seri;
 }
 ul,
 li {
@@ -30,7 +40,10 @@ a {
 }
 
 .banner {
-  padding: 80px 0px 20px;
+  padding: 80px 0px 30px;
+  background-image: url(../images/bnr_back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #425f4d38;
 }
 
@@ -48,7 +61,7 @@ a {
 }
 
 .nav-item :hover {
-  color: #412222;
+  color: #b11b34c9;
 }
 .nav-link:hover {
   border-bottom: 2px solid #412222;
@@ -68,13 +81,13 @@ a {
 .right_content h1 {
   font-family: "Noto Sans", sans-serif;
   font-style: italic;
-  color: #3c2727cf;
+  color: #ffffff;
 }
 
 .right_content ul li {
   list-style: disc;
   font-size: 21px;
-  color: #412222;
+  color: #ffffff;
   line-height: 2;
 }
 
@@ -160,7 +173,7 @@ a {
 
 footer {
   background-color: #f2f1f1;
-  padding: 30px 0px;
+  padding: 30px 0px 10px;
 }
 
 footer ul li a {
@@ -171,6 +184,7 @@ footer ul li a {
 
 footer ul h1 {
   padding-bottom: 15px;
+  font-size: 22px;
 }
 
 footer ul li :hover {
@@ -193,7 +207,7 @@ footer ul li :hover {
 }
 
 .product_page_banner p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 2;
   color: #676565;
 }
