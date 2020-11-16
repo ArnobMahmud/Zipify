@@ -39,17 +39,19 @@ a {
 }
 
 .nav-link {
+  text-transform: uppercase;
   color: #fffbfb;
   font-size: 20px;
   border-bottom: 2px solid transparent;
+  font-weight: 600;
   transition: all linear 0.3s;
 }
 
 .nav-item :hover {
-  color: #3bb44a;
+  color: #412222;
 }
 .nav-link:hover {
-  border-bottom: 2px solid #3bb44a;
+  border-bottom: 2px solid #412222;
 }
 .left_img img {
   max-width: 90%;
@@ -263,6 +265,7 @@ footer ul li :hover {
   font-size: 20px;
 }
 
+/* RESPONSIVE START */
 @media (max-width: 1199px) {
   footer ul h1 {
     padding-bottom: 15px;
