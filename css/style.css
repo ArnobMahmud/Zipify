@@ -22,7 +22,7 @@ a {
 
 .banner {
   padding: 50px 0px;
-  background-color: #1c1c6894;
+  background-color: #877c2069;
 }
 
 .nav-item {
@@ -173,13 +173,47 @@ footer ul li :hover {
 .product_page_banner {
   padding: 30px 0px;
 }
-.product_page_banner h1{
+.product_page_banner h1 {
+  font-style: normal;
+  font-weight: 900;
   color: #3bb44a;
   padding: 20px 0px;
+  font-size: 43px;
 }
 
-.product_page_banner p{
-  font-size: 20px ;
+.product_page_banner p {
+  font-size: 20px;
   line-height: 2;
   color: #676565;
+}
+
+.about_banner {
+  padding: 50px 0px;
+  background-color: #f2f2f2;
+}
+
+.about_banner h1 {
+  padding: 20px 0px;
+  font-size: 37px;
+}
+
+.about_banner p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.about_bnr_content {
+  padding-right: 40px;
+}
+
+.ezra {
+  padding-top: 50px;
+}
+.ezra p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.ezra_right {
+  padding-top: 40px;
 }
