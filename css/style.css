@@ -217,3 +217,15 @@ footer ul li :hover {
 .ezra_right {
   padding-top: 40px;
 }
+
+.blog{
+  padding: 40px 0px;
+}
+
+.box_blog{
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.box_blog p{
+  padding: 10px 30px;
