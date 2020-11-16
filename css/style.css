@@ -161,3 +161,25 @@ footer ul li a {
 footer ul h1 {
   padding-bottom: 15px;
 }
+
+footer ul li :hover {
+  color: #3bb44a;
+}
+
+.product_page_banner {
+  background-color: #f2f2f2;
+}
+
+.product_page_banner {
+  padding: 30px 0px;
+}
+.product_page_banner h1{
+  color: #3bb44a;
+  padding: 20px 0px;
+}
+
+.product_page_banner p{
+  font-size: 20px ;
+  line-height: 2;
+  color: #676565;
+}
