@@ -7,7 +7,13 @@ body {
 img {
   max-width: 100%;
 }
-
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  background-color: rgba(123, 141, 183, 0.56);
+  margin-bottom: 50px;
+}
 ul,
 li {
   list-style: none;
@@ -16,13 +22,16 @@ a {
   text-decoration: none;
   display: block;
 }
+.navbar-brand {
+  display: inline-block;
+}
 .navbar-brand img {
-  max-width: 25%;
+  max-width: 100px;
 }
 
 .banner {
-  padding: 50px 0px;
-  background-color: #877c2069;
+  padding: 80px 0px 20px;
+  background-color: #425f4d38;
 }
 
 .nav-item {
@@ -30,10 +39,10 @@ a {
 }
 
 .nav-link {
-  color: #676565;
+  color: #fffbfb;
   font-size: 20px;
   border-bottom: 2px solid transparent;
-  transition: all linear 0.5s;
+  transition: all linear 0.3s;
 }
 
 .nav-item :hover {
@@ -57,13 +66,13 @@ a {
 .right_content h1 {
   font-family: "Noto Sans", sans-serif;
   font-style: italic;
-  color: white;
+  color: #3c2727cf;
 }
 
 .right_content ul li {
   list-style: disc;
   font-size: 21px;
-  color: white;
+  color: #412222;
   line-height: 2;
 }
 
@@ -171,7 +180,7 @@ footer ul li :hover {
 }
 
 .product_page_banner {
-  padding: 30px 0px;
+  padding: 80px 0px;
 }
 .product_page_banner h1 {
   font-style: normal;
@@ -188,7 +197,7 @@ footer ul li :hover {
 }
 
 .about_banner {
-  padding: 50px 0px;
+  padding: 80px 0px;
   background-color: #f2f2f2;
 }
 
@@ -218,6 +227,9 @@ footer ul li :hover {
   padding-top: 40px;
 }
 
+.blog_banner {
+  padding: 80px 0px;
+}
 .blog {
   padding: 40px 0px;
 }
@@ -231,22 +243,146 @@ footer ul li :hover {
   padding: 10px 30px;
 }
 
-.contact_banner{
+.contact_banner {
   background-image: url(../images/contact_img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 90vh;
 }
 
-.contact_banner img{
+.contact_banner img {
   max-width: 70%;
   margin-bottom: 50px;
 }
 
-.contact_content{
+.contact_content {
   padding: 180px 0px;
 }
 
-.contact_content p{
+.contact_content p {
   font-size: 20px;
+}
+
+@media (max-width: 1199px) {
+  footer ul h1 {
+    padding-bottom: 15px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .ecm_btn a {
+    margin-bottom: 20px;
+  }
+
+  footer ul h1 {
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  .product_page_banner h1 {
+    font-style: normal;
+    font-weight: 900;
+    color: #3bb44a;
+    padding: 20px 0px;
+    font-size: 23px;
+  }
+  .product_page_banner p {
+    font-size: 16px;
+    line-height: 2;
+    color: #676565;
+  }
+  .product_page_banner {
+    padding: 80px 0px 10px;
+  }
+  .ecommerce_content h1 {
+    font-size: 27px;
+    padding: 20px 0px;
+    color: #3bb44a;
+  }
+  .ecommerce_content p {
+    font-size: 16px;
+    color: #75757e;
+  }
+  .ecm_btn a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3bb44a;
+    padding: 15px 40px;
+    color: white;
+    border: 2px solid transparent;
+  }
+  .right_content ul li {
+    list-style: disc;
+    font-size: 16px;
+    color: white;
+    line-height: 2;
+  }
+  .bnr_btn a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff764b;
+    padding: 15px 40px;
+    color: white;
+    border: 2px solid transparent;
+  }
+  .banner {
+    padding: 80px 0px 20px;
+    background-color: #877c2069;
+  }
+  .about_banner h1 {
+    padding: 10px 0px;
+    font-size: 27px;
+  }
+  .about_banner p {
+    font-size: 16px;
+  }
+  .about_banner {
+    padding: 80px 0px 20px;
+    background-color: #f2f2f2;
+  }
+  .ezra p {
+    font-size: 13px;
+  }
+  footer ul li a {
+    color: rgb(77, 74, 74);
+    font-size: 16px;
+    line-height: 3;
+  }
+  .ezra_right {
+    padding-top: 0px;
+  }
+  .ezra h1 {
+    font-size: 34px;
+  }
+  .box_blog p {
+    padding: 6px;
+  }
+  .blog_banner {
+    padding: 80px 0px 10px;
+  }
+  .blog {
+    padding: 0px 0px 26px;
+  }
+  .left_img img {
+    max-width: 97%;
+  }
+  .right_img img {
+    max-width: 82%;
+  }
+  .contact_banner {
+    background-image: url(../images/contact_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_banner {
+    background-position: right;
+  }
+  .box_blog p {
+    padding: 20px 40px;
+    font-size: 21px;
+  }
 }
