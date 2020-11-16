@@ -41,8 +41,10 @@ a {
 
 .banner {
   padding: 80px 0px 30px;
-  background-image: url(../images/bnr_back.jpg);
+  background-image: url(https://ak.picdn.net/shutterstock/videos/14162012/thumb/1.jpg);
+  background-blend-mode: darken;
   background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
   background-color: #425f4d38;
 }
