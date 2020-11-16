@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  /* font-family: "Poppins", sans-seri; */
+}
+img {
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+.navbar-brand img {
+  max-width: 25%;
+}
+
+.banner {
+  padding: 50px 0px;
+  background-color: #1c1c6894;
+}
+
+.nav-item {
+  padding: 0px 15px;
+}
+
+.nav-link {
+  color: #676565;
+  font-size: 20px;
+  border-bottom: 2px solid transparent;
+  transition: all linear 0.5s;
+}
+
+.nav-item :hover {
+  color: #3bb44a;
+}
+.nav-link:hover {
+  border-bottom: 2px solid #3bb44a;
+}
+.left_img img {
+  max-width: 90%;
+}
+
+.right_img img {
+  max-width: 100%;
+}
+
+.right_content {
+  padding: 30px 0px;
+}
+
+.right_content h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+.right_content ul li {
+  list-style: disc;
+  font-size: 21px;
+  color: white;
+  line-height: 2;
+}
+
+.bnr_btn a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff764b;
+  padding: 15px 60px;
+  color: white;
+  border: 2px solid transparent;
+}
+
+.bnr_btn {
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.bnr_btn :hover {
+  background-color: transparent;
+  border: 2px solid #ff764b;
+  color: #ff764b;
+}
+.ecommerce {
+  background-color: #fafafa;
+  padding: 40px 0px;
+}
+
+.ecommerce_content h1 {
+  font-size: 30px;
+  padding: 20px 0px;
+  color: #3bb44a;
+}
+
+.ecommerce_content p {
+  font-size: 20px;
+  color: #75757e;
+}
+
+.ecm_btn {
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.ecm_btn a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #3bb44a;
+  padding: 15px 60px;
+  color: white;
+  border: 2px solid transparent;
+}
+
+.ecm_btn :hover {
+  background-color: transparent;
+  color: #3bb44a;
+  border: 2px solid #3bb44a;
+}
+
+.products {
+  padding: 40px 0px 60px;
+}
+.products h1 {
+  padding-bottom: 20px;
+}
+
+.products p {
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.left_logo img {
+  background-color: #fafafa;
+  border: 1px solid black;
+  padding: 50px;
+  max-width: 100%;
+}
+
+.right_logo img {
+  background-color: #fafafa;
+  border: 1px solid black;
+  padding: 50px;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #f2f1f1;
+  padding: 30px 0px;
+}
+
+footer ul li a {
+  color: rgb(77, 74, 74);
+  font-size: 20px;
+  line-height: 3;
+}
+
+footer ul h1 {
+  padding-bottom: 15px;
+}
