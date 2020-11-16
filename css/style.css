@@ -218,14 +218,35 @@ footer ul li :hover {
   padding-top: 40px;
 }
 
-.blog{
+.blog {
   padding: 40px 0px;
 }
 
-.box_blog{
+.box_blog {
   margin-top: 20px;
   border: 1px solid black;
 }
 
-.box_blog p{
+.box_blog p {
   padding: 10px 30px;
+}
+
+.contact_banner{
+  background-image: url(../images/contact_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.contact_banner img{
+  max-width: 70%;
+  margin-bottom: 50px;
+}
+
+.contact_content{
+  padding: 180px 0px;
+}
+
+.contact_content p{
+  font-size: 20px;
+}
